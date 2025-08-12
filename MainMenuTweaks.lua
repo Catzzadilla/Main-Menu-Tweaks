@@ -1,3 +1,11 @@
+--Mod icon
+SMODS.Atlas({
+    key = "modicon",
+    path = "icon.png",
+    px = 32,
+    py = 32
+})
+
 local create_UIBox_main_menu_buttonsRef = create_UIBox_main_menu_buttons
 function create_UIBox_main_menu_buttons()
     local t = create_UIBox_main_menu_buttonsRef()
